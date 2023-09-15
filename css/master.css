@@ -1,0 +1,49 @@
+body {
+  font-family: system-ui;
+}
+.timer{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  border: 1px solid #0075ff;
+  padding: 5px 40px;
+}
+h2 {
+  background-color: #0075ff;
+  color: white;
+  padding: 10px 0;
+  width: 400px;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.time {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: auto;
+  padding: 0 30px 15px 0;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  right: 34px;
+}
+
+.days,
+.hrs,
+.mins,
+.secs {
+  background-color: #0075ff;
+  margin-left: 5px;
+  width: 30px;
+  padding: 30px;
+  text-align: center;
+}
+
+span {
+  font-size: 30px;
+}
